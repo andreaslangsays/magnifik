@@ -141,7 +141,7 @@ Mobify.UI.Magnifik = (function() {
 
         this.$element.trigger('magnifik:closing');
 
-        this.$canvas.detach();
+        this.$canvas.remove();
         this.$stage.removeClass(this._getClass('zooming'));
 
         if (this.options.global) {
