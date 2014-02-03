@@ -121,6 +121,11 @@ The magnifik emits the following events:
 | beforeClose   | Fired before magnifik starts closing      |
 | afterClose    | Fired after magnifik finishes closing     |
 
+For example, to bind the beforeOpen event, do this:
+
+    $('.magnifik').on('magnifik:beforeOpen', function() { console.log('beforeOpen'); });
+
+
 <!--
 
 ## Limitations
